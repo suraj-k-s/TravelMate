@@ -1,0 +1,37 @@
+.guestfooter{
+    background-color: black;
+    height: 80px;
+    width: 100%;
+    text-align: center;
+}
+.guestFooterText1{
+    padding-top: 10px;
+    color: white;
+    font-size: 15px;
+    width: 300px;
+    margin-left: 620px;
+    margin-bottom: 10px;
+    height: 20px;
+}
+.guestFooterCopyrightWrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 15px;
+    width: 250px;
+    margin-left: 640px;
+}
+.guestFooterCopyright{
+    color: white !important;
+    font-size: 19px !important;
+}
+.guestFooterIcon{
+    color: white !important;
+    margin-right: 8px;
+    cursor: pointer;
+}
+.guestFooterIconWrapper{
+    margin-top: -30px;
+    margin-left: 1250px;
+}

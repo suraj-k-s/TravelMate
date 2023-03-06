@@ -1,0 +1,94 @@
+.userTobBar {
+    width: 100%;
+    height: 65px;
+    background-color: rgb(2, 58, 114);
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    border-bottom: 3px solid rgb(102 178 255);
+  }
+  .userTobBarWrapper {
+    height: 100%;
+    padding: 0px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .userTobBarRight {
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+  }
+  .userTopBarlogo {
+    font-weight: bold;
+    font-size: 30px;
+    color: rgb(102 178 255);
+    cursor: pointer;
+  }
+  .userTobBarRightItemContainer {
+    position: relative;
+    margin-right: 15px;
+  }
+  .userTobBarAvatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-right: 5px;
+    object-fit: cover;
+  }
+  .userTobBarLeftcaption {
+    margin-left: 10px;
+    font-weight: 600;
+    font-size: 16px;
+    font-style: italic;
+    font-family: "Playball", cursive;
+    color: white;
+  }
+  .userTopbarDropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .userTopbarDropdown-content {
+    display: none;
+    right: 0;
+    position: absolute;
+    background-color: #ffffff;
+    min-width: 150px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    border-radius: 10px;
+    
+  }
+  
+  .userTopbarDropdown-content a {
+    padding: 12px 14px;
+    text-decoration: none;
+    display: block;
+    color: rgb(102 178 255);
+  }
+  
+  .userTopbarDropdown-content a:hover {
+    background-color: rgb(102 178 255);
+    color: white;
+    border-radius: 10px;
+  }
+  
+  .userTopbarDropdown:hover .userTopbarDropdown-content {
+    display: block;
+  }
+  
+  .userTopbarDropdown:hover .dropbtn {
+    background-color: #3e8e41;
+  }
+  .userTobBarRightIcon{
+      color: white !important;
+      font-size: 28px !important;
+      margin-right: 5px;
+      cursor: pointer;
+  }
+  .userTobBarRightText{
+    color: white;
+    font-size: 16px;
+  }

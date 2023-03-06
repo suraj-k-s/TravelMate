@@ -1,0 +1,31 @@
+.PackagerComplaintViewlistView{
+    background: linear-gradient(to bottom, rgba(0,0,0,0) 0%,black 100%),url("../../../../Assets/pic62.jpg");
+    background-size: 100% 100%;
+    height: 90vh;
+}
+.PackagerComplaintViewlistContainer{
+    margin: 0px 0px 0px 250px;
+    padding: 10px;
+}
+.PackagerComplaintViewlistTitle{
+    margin-top: 30px;
+    font-size: 28px;
+    color: white;
+}
+.PackagerComplaintViewlistDetailsView{
+    -webkit-box-shadow: -1px 1px 7px 4px rgba(0,0,0,0.45); 
+box-shadow: -1px 1px 7px 4px rgba(0,0,0,0.45);
+    border-radius: 10px;
+    margin-top: 43px;
+    height:423px;
+    width: 75%;
+    background-color: rgba(255, 255, 255, 0.747) ;   
+}
+.PackagerComplaintViewlistTitleWrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.PackagerComplaintViewButton{
+    color: darkblue;
+}

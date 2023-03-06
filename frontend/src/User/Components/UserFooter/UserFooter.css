@@ -1,0 +1,37 @@
+.userfooter{
+    background-color: black;
+    height: 80px;
+    width: 100%;
+    text-align: center;
+}
+.userFooterText1{
+    padding-top: 10px;
+    color: white;
+    font-size: 15px;
+    width: 300px;
+    margin-left: 620px;
+    height: 20px;
+}
+.userFooterCopyrightWrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 15px;
+    width: 250px;
+    margin-left: 640px;
+    margin-top: 10px;
+}
+.userFooterCopyright{
+    color: white !important;
+    font-size: 19px !important;
+}
+.userFooterIcon{
+    color: white !important;
+    margin-right: 8px;
+    cursor: pointer;
+}
+.userFooterIconWrapper{
+    margin-top: -30px;
+    margin-left: 1250px;
+}

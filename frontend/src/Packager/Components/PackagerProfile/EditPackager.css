@@ -1,0 +1,107 @@
+.editPackager{
+    padding: 20px;
+    
+}
+.editPackagerTitleContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+.editPackagerContainer{
+    display: flex;
+}
+.editPackagerUpdateForm{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.editPackagerUpdate{
+    width: 500px;
+    padding: 3px 20px 20px 20px;
+    -webkit-box-shadow: -1px 1px 7px 4px rgba(0,0,0,0.45); 
+box-shadow: -1px 1px 7px 4px rgba(0,0,0,0.45);
+border-radius: 10px;
+background-color: rgba(255, 255, 255, 0.425);
+}
+.packagerUpdateItem{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    color: white;
+}
+.packagerUpdateItem>label{
+    margin-bottom: 5px;
+    font-size: 14px;
+    font-weight: 600;
+}
+.editPackagerUpdateInput{
+    border: none;
+    width: 250px;
+    padding-left: 5px;
+    height: 30px;
+    border: 1px solid gray;
+    background-color: rgba(255, 255, 255, 0.562);
+    border-radius: 5px;
+}
+.packagerprofileEditFormInputDrop{
+    order: none;
+    width: 250px;
+    padding-left: 5px;
+    height: 30px;
+    border: 1px solid gray;
+    background-color: rgba(255, 255, 255, 0.562);
+    border-radius: 5px;
+}
+.editPackagerUpdateRight{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.editPackagerUpdateUpload{
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+}
+.editPackagerUpdateImg{
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    object-fit: cover;
+    margin-left: 20px;
+    margin-top: 50px;
+    cursor: pointer;
+}
+.editPackagerUpdateIcon{
+    cursor: pointer;   
+}
+.editPackagerUpdateButton{
+    border-radius: 5px;
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+    background-color: rgba(0, 0, 139, 0.732);
+    color: white;
+    height: 35px;
+    width: 90px;
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 25px;
+}
+.editPackagerUpdateButton:hover{
+    border-radius: 5px;
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.737);
+    color: darkblue;
+    height: 35px;
+    width: 90px;
+    font-size: 16px;
+    margin-bottom: 10px;
+    font-weight: 500;
+  
+}

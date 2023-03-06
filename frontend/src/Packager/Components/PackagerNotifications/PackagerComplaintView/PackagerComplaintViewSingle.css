@@ -1,0 +1,104 @@
+.PackagerComplaintViewSingle {
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, black 100%),
+    url("../../../../Assets/pic89.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  height: 95vh;
+}
+.PackagerComplaintViewSingleContainer {
+  margin-bottom: 20px;
+  margin-left: 70px;
+  margin-right: 20px;
+}
+.PackagerComplaintViewSingleTitleContainer {
+  padding-top: 40px;
+  margin-left: 20px;
+}
+.PackagerComplaintViewSingleTitle {
+  margin-left: -10px;
+  color: white;
+}
+.PackagerComplaintViewSingleComplaintContainer {
+  margin-top: 30px;
+  margin-left: 10px;
+}
+.PackagerComplaintViewSingleComplaintTop {
+  -webkit-box-shadow: -1px 1px 7px 4px rgba(0, 0, 0, 0.45);
+  box-shadow: -1px 1px 7px 4px rgba(0, 0, 0, 0.45);
+  border-radius: 10px;
+  width: 25%;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.747);
+}
+.PackagerComplaintViewSingleComplaintInfoTitle {
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+  margin-left: 10px;
+}
+.PackagerComplaintViewSingleComplaintInfoLogo {
+  font-size: 17px !important;
+}
+.PackagerComplaintViewSingleComplaintInfo {
+  margin-left: 10px;
+}
+.PackagerComplaintViewSingleComplaintBottom {
+  margin-top: 30px;
+  -webkit-box-shadow: -1px 1px 7px 4px rgba(0, 0, 0, 0.45);
+  box-shadow: -1px 1px 7px 4px rgba(0, 0, 0, 0.45);
+  border-radius: 10px;
+  padding: 10px;
+  width: 1300px;
+  height: 370px;
+  background-color: rgba(255, 255, 255, 0.747);
+}
+.PackagerComplaintViewSingleComplaintBottomTitile {
+  margin-top: 10px;
+  margin-bottom: -8px;
+  padding: 10px;
+  font-size: 20px;
+}
+.PackagerComplaintViewSingleComplaintBottomContent {
+  margin-top: 10px;
+  padding: 10px;
+}
+
+.packagercomplaintstatusupdate {
+  width: 255px;
+  height: 33px;
+  border-radius: 5px;
+  border: 1px solid black;
+  margin-left: 10px;
+  margin-top: 20px;
+  background-color: transparent;
+}
+.packagercomplaintstatusupdatebutton {
+  margin-left: 100px;
+  width: 100px;
+  height: 33px;
+  background-color: darkblue;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  border: none;
+}
+.packagercomplaintstatusupdatebutton:hover {
+  margin-left: 100px;
+  width: 100px;
+  height: 33px;
+  background-color: white;
+  color: darkblue;
+  border-radius: 5px;
+  cursor: pointer;
+  border: none;
+}
+
+.packagercomplaintreplyupdatetextarea {
+  height: 50px;
+  width: 450px;
+  padding: 5px;
+  border-radius: 5px;
+  margin-left: 8px;
+  margin-top: 10px;
+  background-color: transparent;
+}

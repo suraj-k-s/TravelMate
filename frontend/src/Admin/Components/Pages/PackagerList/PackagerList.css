@@ -1,0 +1,48 @@
+.packagerView{
+    flex: 5;
+    background: linear-gradient(to bottom, rgba(0,0,0,0) 0%,black 100%),url("../../../../Assets/oneness.jpg");
+    background-size: 1300px 694px;
+}
+.packagerList{
+    -webkit-box-shadow: -1px 1px 7px 4px rgba(0,0,0,0.45); 
+box-shadow: -1px 1px 7px 4px rgba(0,0,0,0.45);
+    border-radius: 10px;
+    margin-top: 43px;
+    height: 423px;
+    width: 90%;
+    background-color: rgba(255, 255, 255, 0.747) ; 
+}
+.packagerListPackager{
+    display: flex;
+    align-items: center;
+}
+.packagerListImg{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+}
+.packagerListEdit{
+    border: none;
+    background-color:  inherit;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin-right: 20px;
+    color: black !important;
+}
+.packagerListDelete{
+    color: red;
+    cursor: pointer;
+}
+.packagerListContainer{
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0px 0px 150px;
+    padding: 10px;
+}
+.packagerListTitle{
+    margin-top: 10px;
+    font-size: 28px;
+    color: white;
+}

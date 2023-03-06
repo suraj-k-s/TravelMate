@@ -1,0 +1,56 @@
+.BusModelView{
+    flex: 5;
+    background: linear-gradient(to bottom, rgba(0,0,0,0) 0%,black 100%),url("../../../../Assets/pic46.jpg");
+    background-size: 1300px 694px;
+}
+.BusModelContainer{
+    margin: 20px 0px 0px 250px;
+    padding: 10px;
+    width: 50;
+}
+.BusModelTitle{
+    margin-top: 10px;
+    font-size: 28px;
+}
+.BusModelDetailsView{
+    -webkit-box-shadow: -1px 1px 7px 4px rgba(0,0,0,0.45); 
+box-shadow: -1px 1px 7px 4px rgba(0,0,0,0.45);
+    border-radius: 10px;
+    margin-top: 43px;
+    height:370px;
+    width: 60%;
+    background-color: rgba(255, 255, 255, 0.747) ; 
+    
+}
+.BusModelTitleWrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.BusModelButtonWrapper{
+    margin-right: 328px;
+}
+.BusModelButton{
+    margin-right: 75px;
+    border: none;
+    background-color: rgb(2, 82, 163);
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    padding: 10px;
+}
+.BusModelButton:hover{
+    border: none;
+    background-color: white;
+    color: rgb(2, 58, 114);
+    border-radius: 10px;
+    cursor: pointer;
+    padding: 10px;
+}
+.BusModelListDelete{
+    color: red;
+    cursor: pointer;
+}
+.BusModelTitle{
+    color: white;
+}

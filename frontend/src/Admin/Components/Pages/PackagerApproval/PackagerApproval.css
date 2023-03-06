@@ -1,0 +1,62 @@
+.packagerApprovalView{
+    flex: 5;
+    background: linear-gradient(to bottom, rgba(0,0,0,0) 0%,black 100%),url("../../../../Assets/pic3.jpg");
+    background-size: 1300px 694px;
+}
+.packagerApprovalContainer{
+    margin: 20px 0px 0px 150px;
+    padding: 10px;
+}
+.packagerApprovalTitle{
+    margin-top: 10px;
+    font-size: 28px;
+    color: white;
+}
+.packagerApprovalDetailsView{
+    -webkit-box-shadow: -1px 1px 7px 4px rgba(0,0,0,0.45); 
+box-shadow: -1px 1px 7px 4px rgba(0,0,0,0.45);
+    border-radius: 10px;
+    margin-top: 43px;
+    height:423px;
+    width: 90%;
+    background-color: rgba(255, 255, 255, 0.747) ;   
+}
+.packagerApprovalTitleWrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.packagerApprovalListPackager{
+    display: flex;
+    align-items: center;
+}
+.packagerApprovalListImg{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+}
+.packagerapprovalAccept{
+    color: rgb(34, 192, 34);
+    cursor: pointer;
+    font-size: 25px !important;
+}
+.packagerapprovalReject{
+    margin-left: 15px;
+    color: red;
+    cursor: pointer;
+    font-size: 25px !important;
+}
+/* .buttonaccept{
+    border: none;
+    background-color: #e5faf2;
+    color: #3bb077;
+    border-radius: 5px;
+}
+.buttonreject{
+    border: none;
+    background-color: #fff0f1;
+    color: #d95087;
+    border-radius: 5px;
+} */

@@ -1,0 +1,37 @@
+.packagerfooter{
+    background-color: rgb(0, 0, 0);
+    height: 70px;
+    width: 100%;
+    text-align: center;
+}
+.packagerFooterText1{
+    padding-top: 10px;
+    color: white;
+    font-size: 15px;
+    width: 300px;
+    margin-left: 620px;
+    margin-bottom: 10px;
+    height: 20px;
+}
+.packagerFooterCopyrightWrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 15px;
+    width: 250px;
+    margin-left: 640px;
+}
+.packagerFooterCopyright{
+    color: white !important;
+    font-size: 19px !important;
+}
+.packagerFooterIcon{
+    color: white !important;
+    margin-right: 8px;
+    cursor: pointer;
+}
+.packagerFooterIconWrapper{
+    margin-top: -30px;
+    margin-left: 1250px;
+}

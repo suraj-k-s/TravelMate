@@ -1,0 +1,110 @@
+.guesthome{
+    background: linear-gradient(to bottom, rgba(0,0,0,0) 0%,black 100%),url("../../../Assets/pic0.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.guestimg{
+    position: relative;
+    width: 100%;
+    height: 600px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.imgText{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-75%, -50%);
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.guestHomeBox1Title{
+    font-size: 25px;
+    font-weight: 600;
+    color: White;
+    margin-left: 75px;
+    margin-bottom: 25px;
+}
+.guestHomeBox1{
+    border-radius: 10px;
+    width: 1455px;
+    margin-top: 60px; 
+    margin-left: 35px;
+}
+.guestHomeBox1Image{
+    transition: transform .2s;
+}
+.guestHomeBox1Image:hover{
+    transform: scale(1.1);
+}
+.guestHomeBox1ImageConatiner{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.guestHomeBox1ImageItem{
+    height: 250px;
+    width: 200px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+.guestHomeBox1ImageItemTitle{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: white;
+}
+.guestTopBar{
+    height: 65px;
+    width: 100%;
+    background-color: rgba(2, 58, 114, 0.89);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0px;
+    z-index: 999;
+    border-bottom: 3px solid rgb(102 178 255);
+}
+.guestTopBarTitle{
+    padding: 6px;
+    font-size: 25px;
+    font-weight: bold;
+    margin-left: 30px;
+   color:  rgb(102 178 255);
+   cursor: pointer;
+}
+.guestBarTitleRight{
+    color: white;
+}
+.guestTopBarRight{
+    margin-right: 50px;
+}
+.guestTopBarSignIn{
+    border: 1px solid black;
+    background-color: transparent;
+    width: 70px;
+    height: 30px;
+    color: white;
+    border-radius: 5px;
+    border: 1px solid white;
+}
+.guestTopBarSignIn:hover{
+    border: 1px solid black;
+    background-color: white;
+    width: 70px;
+    height: 30px;
+    color: rgb(2, 58, 114);
+    border-radius: 5px;
+    border: 1px solid rgb(2, 58, 114);
+}
+.topLeftcaption {
+    margin-left: 5px;
+    font-weight: 600;
+    font-size: 14px;
+    font-style: italic;
+    font-family: "Playball", cursive;
+    color: white;
+  }

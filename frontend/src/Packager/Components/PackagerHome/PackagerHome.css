@@ -1,0 +1,79 @@
+.packagerhome{
+    background: linear-gradient(to bottom, rgba(0,0,0,0) 0%,black 100%),url("../../../Assets/pic0.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    padding-top: 60px;
+}
+.packagerimg{
+    margin-top: -60px;
+    position: relative;
+    text-align: center;
+}
+
+.packagerHomeBox1Title{
+    font-size: 25px;
+    font-weight: 600;
+    color: White;
+    margin-left: 75px;
+    margin-bottom: 25px;
+}
+.packagerHomeBox1{
+    border-radius: 10px;
+    width: 1455px;
+    margin-top: 80px; 
+    margin-left: 35px;
+}
+.packagerHomeBox1ImageConatiner{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.packagerHomeBox1ImageItem{
+    height: 250px;
+    width: 200px;
+    border-radius: 15px;
+    cursor: pointer; 
+}
+.packagerHomeBox1Image{
+    transition: transform .2s;
+}
+.packagerHomeBox1Image:hover{
+    transform: scale(1.1);
+}
+.packagerHomeBox1ImageItemTitle{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: white;
+}
+.topLeftcaption {
+    margin-left: 5px;
+    font-weight: 600;
+    font-size: 14px;
+    font-style: italic;
+    font-family: "Playball", cursive;
+    color: white;
+  }
+.packagerHomeRegisterButtonContainer{
+    position: absolute;
+    right: 145px;
+    top: 480px;
+  }
+.packagerHomeRegisterButton{
+    background-color: rgb(2, 58, 114);
+    color: white;
+    font-weight: bold;
+    border-radius: 7.5px;
+    width: 100px;
+    height: 40px;
+    border: none;
+    cursor: pointer;
+}
+.packagerHomeRegisterButton:hover{
+    background-color: rgba(255, 255, 255, 0.733);
+    color: rgb(2, 58, 114);
+    border-radius: 7.5px;
+    width: 100px;
+    height: 40px;
+    border: none;
+}

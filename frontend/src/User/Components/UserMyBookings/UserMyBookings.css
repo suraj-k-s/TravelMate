@@ -1,0 +1,56 @@
+.userMyBookingsList{
+    background: linear-gradient(to bottom, rgba(0,0,0,0) 0%,black 100%),url("../../../Assets/pic60.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+height: 98vh;
+margin-top: -50px;
+}
+.userMyBookingsListTable{
+    margin-left: 200px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    height: 422.5px;
+    width: 950px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.671);
+}
+
+.userMyBookingsTitleWrapper{
+
+    width: 1000px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 200px;
+    padding-top: 100px;
+}
+
+.userMyBookingsTitle{
+    margin-top: 10px;
+    font-size: 28px;
+    color: white;
+}
+.userMyBookingsButton{
+    background-color: rgb(2, 58, 114);
+    color: white;
+    width: 90px;
+    height: 35px;
+    border-radius: 10px;
+    border: none;
+}
+.userMyBookingsButton:hover{
+    background-color: white;
+    color: rgb(2, 58, 114);
+    width: 90px;
+    height: 35px;
+    border-radius: 10px;
+    border: none;
+}
+.userMyBookingListView{
+    border: none;
+    background-color: inherit;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin-right: 20px;
+    color: darkblue;
+}

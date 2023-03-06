@@ -1,0 +1,115 @@
+.Login {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, black 100%), url("../../../Assets/pic22.jpg");
+    background-size: 100% 850px;
+    background-repeat: no-repeat;
+    position: relative;
+  }
+  
+.loginLogoTitle {
+  padding: 20px 50px;
+  font-size: 30px;
+  font-weight: bold;
+  color: rgb(255, 82, 134);
+  cursor: pointer;
+  }
+  
+.loginContainer {
+    width: 100%;
+    height: 90%;
+    margin-top: -50px;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+  }
+  
+/* form {
+    width: 300px;
+    height: 300px;
+    padding: 0px;
+    border-radius: 5px;
+    background-color: var(--main-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  } */
+  .loginform{
+    width: 300px;
+    height: 300px;
+    padding: 0px;
+    border-radius: 5px;
+    background-color: var(--main-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  /* input {
+    height: 40px;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.413);
+    color: white;
+    padding-left: 10px;
+    margin-bottom: 6px;
+  } */
+.loginforminput{
+  height: 40px;
+  border-radius: 5px;
+  background-color: rgba(0, 0, 0, 0.413);
+  color: white;
+  padding-left: 10px;
+  margin-bottom: 6px;
+}
+  
+  .Login .loginContainer form input::-webkit-input-placeholder {
+    color: lightgray;
+  }
+  
+  .Login .loginContainer form input:-ms-input-placeholder {
+    color: lightgray;
+  }
+  
+  .Login .loginContainer form input::-ms-input-placeholder {
+    color: lightgray;
+  }
+  
+  .Login .loginContainer form input::placeholder {
+    color: lightgray;
+  }
+  
+ .loginButton {
+    height: 40px;
+    border-radius: 5px;
+    background-color: rgb(0, 69, 138);
+    color: white;
+    border: none;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    margin-bottom: 5px;
+  }
+  .loginButton:hover {
+    height: 40px;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.685);
+    color: rgb(0, 86, 172);
+    border: none;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    margin-bottom: 5px;
+  }
+  
+  .Login .loginContainer form span {
+    color: white;
+  }
+  
+  .link-signup{
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+  }

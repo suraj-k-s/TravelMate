@@ -1,0 +1,108 @@
+.PackagerRegistrationFront{
+    width: 100%;
+    height: 90vh;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, black 100%), url("../../../Assets/pic71.jpg");
+    background-size: 100% 700px;
+    background-repeat: no-repeat;
+}
+    .PackagerRegistrationFrontContainer{
+        padding: 20px;
+        width: 50%;
+        margin-left: 350px;
+        color: white;
+        height: 300px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+
+    .PackagerRegistrationFrontPackageContainer{
+        background:linear-gradient(to bottom, rgba(0, 0, 0, 0.418) 100%, rgba(255, 255, 255, 0.219) 100%);
+        background-size: 100% 100%;
+        width: 35%;
+        height: 320px;
+        margin-top: 100px;
+        border-radius: 15px;
+        padding: 10px;
+        transition: transform .2s;
+        cursor: pointer;
+    }
+    .PackagerRegistrationFrontPackageContainer:hover{
+            transform: scale(1.1);
+    }
+    .PackagerRegistrationFrontPackageTitle
+    {
+        margin-top: 15px;
+        font-size: 24px;
+        font-weight: 600;
+        text-align:center;
+        color: rgb(204, 204, 204);
+    }
+    .PackagerRegistrationFrontPackageDescription{
+        margin-top: 15px;
+        font-size: 18px;
+        font-weight: 600;
+        text-align: center;
+        color: rgb(204, 204, 204);
+    }
+    .PackagerRegistrationFrontPackageReqContainer{
+        font-weight: 600;
+        margin-left: 25px;
+        margin-top: 15px;
+        color: rgb(204, 204, 204);
+    }
+    .PackagerRegistrationFrontPackageReqItemsUL{
+        list-style: none;
+    }
+    .PackagerRegistrationFrontPackageReqItemsLI{
+        font-weight: 600;
+        margin-top: 7.5px;
+    }
+
+
+
+
+   
+    .PackagerRegistrationFrontBusContainer{
+        background:linear-gradient(to bottom, rgba(0, 0, 0, 0.418) 100%, rgba(255, 255, 255, 0.219) 100%);
+        background-size: 100% 100%;
+        width: 35%;
+        height: 320px;
+        margin-top: 100px;
+        border-radius: 15px;
+        padding: 10px;
+        transition: transform .2s;
+        cursor: pointer;
+        
+    }
+    .PackagerRegistrationFrontBusContainer:hover{
+            transform: scale(1.1);
+    }
+    .PackagerRegistrationFrontBusTitle
+    {
+        margin-top: 15px;
+        font-size: 24px;
+        font-weight: 600;
+        text-align:center;
+        color: rgb(204, 204, 204);
+    }
+    .PackagerRegistrationFrontBusDescription{
+        margin-top: 15px;
+        font-size: 18px;
+        font-weight: 600;
+        text-align: center;
+        color: rgb(204, 204, 204);
+    }
+    .PackagerRegistrationFrontBusReqContainer{
+        font-weight: 600;
+        margin-left: 25px;
+        margin-top: 15px;
+        color: rgb(204, 204, 204);
+    }
+    .PackagerRegistrationFrontBusReqItemsUL{
+        list-style: none;
+    }
+    .PackagerRegistrationFrontBusReqItemsLI{
+        font-weight: 600;
+        margin-top: 7.5px;
+    }

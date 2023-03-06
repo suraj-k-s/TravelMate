@@ -1,0 +1,222 @@
+.userpackageview{
+    height: fit-content;
+    padding: 10px;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, black 100%), url("../../../Assets/pic53.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.userPackageViewContainer{
+    margin:0px auto;
+    padding: 15px;
+    width: 80%;
+}
+.userPackageViewBox1{
+    width: 80%;
+    margin-top: 60px;
+    margin-left: 135px;
+    display: flex;
+    justify-content: space-between;
+}
+.userPackageViewBox1LeftContent{
+    margin-left: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    color: black;
+}
+.userPackageViewBox1RightSortIcon{
+    margin-right: 20px;
+    font-size: 20px !important;
+    cursor: pointer;
+    color: black !important;
+}
+
+
+.userSortDropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .userSortDropdown-content {
+    display: none;
+    left: 0;
+    position: absolute;
+    background-color: #ffffff;
+    min-width: 100px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    border-radius: 10px;
+    
+  }
+  
+  .userSortDropdown-content a {
+    color: grey;
+    padding: 12px 14px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .userSortDropdown-content a:hover {
+    background-color: grey;
+    color: white;
+    border-radius: 10px;
+  }
+  
+  .userSortDropdown:hover .userSortDropdown-content {
+    display: block;
+  }
+  
+  .userSortDropdown:hover .dropbtn {
+    background-color: #3e8e41;
+  }
+
+
+.userPackageViewBox2{
+    border: 1px solid grey;
+    background-color: rgba(255, 255, 255, 0.438);
+    -webkit-box-shadow: -1px 1px 7px 4px rgba(0,0,0,0.45); 
+box-shadow: -1px 1px 7px 4px rgba(0,0,0,0.45);
+    border-radius: 5px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    cursor: pointer;
+    transition: transform .2s;
+}
+.userPackageViewBox2:hover{
+    border: 1px solid grey;
+    background-color: rgba(255, 255, 255, 0.438);
+    -webkit-box-shadow: -1px 1px 7px 4px rgba(0,0,0,0.45); 
+box-shadow: -1px 1px 7px 4px rgba(0,0,0,0.45);
+    border-radius: 5px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    cursor: pointer;
+    transform: scale(1.05);
+}
+.userPackageViewLeftImg{
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+.userPackageViewBox2Text1Container{
+    text-align: center;
+    color: black;
+}
+.userPackageViewBox2Text1Name{
+    padding-top: 5px;
+    font-weight: bold;
+    font-size: 25px;
+    padding-bottom: 5px;
+    
+}
+.userPackageViewBox2Text1Location{
+    font-style: italic;
+    font-size: 15px;
+    padding-bottom: 5px;
+    font-weight: 600;
+}
+.userPackageViewBox2Text1Phone{
+    padding-bottom: 5px;
+    font-weight: 600;
+}
+.userPackageViewBox2Text1Mail{
+    font-weight: 600;
+}
+
+.userPackageViewBox3ContentList{
+    font-style: italic;
+    margin-left: 10px;
+    padding-bottom: 5px;
+    font-weight: 600;
+}
+.userPackageViewBox3Title{
+    font-weight: bold;
+margin-right: 10px;
+padding-bottom: 5px;
+}
+.userPackageViewBox4ContentList{
+    font-style: italic;
+    margin-left: 10px;
+    padding-bottom: 5px;
+    font-weight: 600;
+}
+.userPackageViewBox4Title{
+    font-weight: bold;
+margin-right: 10px;
+padding-bottom: 5px;
+}
+  
+.userPackageViewBox5{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.userPackageViewBox6RatingWrapper{
+    display: flex;
+align-items: center;
+margin-bottom: 30px;
+}
+.userPackageViewBox6RatingTitle{
+    padding-bottom: 3.25px;
+    font-weight: bold;
+    color: black;
+}
+.userPackageViewBox6RatingStar{
+    margin-left: 3px;
+    color: gold !important;
+    font-size: 22px !important;
+}
+.userPackageViewBox5RateWrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.userPackageViewBox5RateWrapper1{
+    display: flex;
+    align-items: center;
+}
+.userPackageViewBox5Rate{
+    font-size: 24px;
+    font-weight: bold;
+    color: red;
+}
+.userPackageViewBox5RateCaption{
+    font-size: 14px;
+    font-style: italic;
+}
+.userPackageViewBox5RateIcon{
+    font-size: 20px !important;
+    color: red;
+}
+.userPackageViewBox6{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.userPackageViewBookButton{
+    height: 30px;
+    width: 90px;
+    border-radius: 5px;
+    background-color: rgb(2, 58, 114);
+    color: white;
+    cursor: pointer;
+    border: none;
+}
+.userPackageViewBookButton:hover{
+    height: 30px;
+    width: 90px;
+    border-radius: 5px;
+    background-color: white;
+    color: rgb(2, 58, 114);
+    cursor: pointer;
+}

@@ -1,0 +1,112 @@
+.signup{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, black 100%), url("../../../Assets/pic35.jpg");
+    background-size: 100% 850px;
+    background-repeat: no-repeat;
+}
+.signupLogoTitle {
+    padding: 20px 50px;
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(167, 170, 182);
+    cursor: pointer;
+    }
+    .signupContainer{
+        padding: 20px;
+        width: 50%;
+        margin-top: 100px;
+        margin-left: 350px;
+        color: white;
+        height: 300px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .signupPackagerContainer{
+        background:linear-gradient(to bottom, rgba(0, 0, 0, 0.418) 100%, rgba(255, 255, 255, 0.219) 100%);
+        background-size: 100% 100%;
+        width: 35%;
+        height: 300px;
+        border-radius: 15px;
+        padding: 10px;
+        transition: transform .2s;
+        cursor: pointer;
+    }
+    .signupPackagerContainer:hover{
+            transform: scale(1.1);
+    }
+    .signupPackagerTitle
+    {
+        margin-top: 15px;
+        font-size: 24px;
+        font-weight: 600;
+        text-align:center;
+        color: rgb(204, 204, 204);
+    }
+    .signupPackagerDescription{
+        margin-top: 15px;
+        font-size: 18px;
+        font-weight: 600;
+        text-align: center;
+        color: rgb(204, 204, 204);
+    }
+    .signupPackagerReqContainer{
+        font-weight: 600;
+        margin-left: 25px;
+        margin-top: 15px;
+        color: rgb(204, 204, 204);
+    }
+    .signupPackagerReqItemsUL{
+        list-style: none;
+    }
+    .signupPackagerReqItemsLI{
+        font-weight: 600;
+        margin-top: 7.5px;
+    }
+
+
+
+
+   
+    .signupUserContainer{
+        background:linear-gradient(to bottom, rgba(0, 0, 0, 0.418) 100%, rgba(255, 255, 255, 0.219) 100%);
+        background-size: 100% 100%;
+        width: 35%;
+        height: 300px;
+        border-radius: 15px;
+        padding: 10px;
+        transition: transform .2s;
+        cursor: pointer;
+        
+    }
+    .signupUserContainer:hover{
+            transform: scale(1.1);
+    }
+    .signupUserTitle
+    {
+        margin-top: 15px;
+        font-size: 24px;
+        font-weight: 600;
+        text-align:center;
+        color: rgb(204, 204, 204);
+    }
+    .signupUserDescription{
+        margin-top: 15px;
+        font-size: 18px;
+        font-weight: 600;
+        text-align: justify;
+        color: rgb(204, 204, 204);
+    }
+    .signupUserReqContainer{
+        font-weight: 600;
+        margin-left: 25px;
+        margin-top: 15px;
+        color: rgb(204, 204, 204);
+    }
+    .signupUserReqItemsUL{
+        list-style: none;
+    }
+    .signupUserReqItemsLI{
+        font-weight: 600;
+        margin-top: 7.5px;
+    }

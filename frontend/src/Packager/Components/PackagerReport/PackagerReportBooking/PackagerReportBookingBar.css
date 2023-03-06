@@ -1,0 +1,19 @@
+.packagerReportBookingBarChart{
+    height: 375px;
+    margin-left: -30px;
+    margin-bottom: 40px;
+    width: 90%;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.336);
+    -webkit-box-shadow: -1px 1px 7px 4px rgba(0,0,0,0.45); 
+box-shadow: -1px 1px 7px 4px rgba(0,0,0,0.45);
+    border-radius: 10px;
+}
+.packagerReportBookingBarChartTitle{
+    margin-bottom: 20px;
+    color: white;
+}
+.packagerReportBookingBarChart{
+    margin-top: 50px;
+    fill: greenyellow;
+}

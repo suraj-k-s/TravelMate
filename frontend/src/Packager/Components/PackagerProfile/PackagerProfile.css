@@ -1,0 +1,90 @@
+.packagerprofile{
+    background: linear-gradient(to bottom, rgba(0,0,0,0) 0%,black 100%),url("../../../Assets/pic67.jpg");
+    background-size: 100% 750px;
+    background-repeat: no-repeat;
+    height: 90vh;
+   padding: 20px;
+}
+.packagerProfileTopTitleWrapper{
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    margin-left: 40px;
+}
+.packagerProfileTopTitleProfile{
+    margin-left: 50px;
+}
+.packagerProfileTopTitleEdit{
+    margin-left: 400px;
+}
+.packagerProfileTopTitleItem{
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+}
+.packagerContainer{
+    display: flex;
+    margin-top: 20px;
+}
+.packagerProfilePackagerShow{
+    width: 350px;
+    height: 360px;
+    padding: 20px;
+    margin-left: 50px;
+    -webkit-box-shadow: -1px 1px 7px 4px rgba(0,0,0,0.45); 
+box-shadow: -1px 1px 7px 4px rgba(0,0,0,0.45);
+border-radius: 10px;
+background-color: rgba(255, 255, 255, 0.562);
+color: black;
+}
+.packagerProfilePackagerShowTop{
+    display: flex;
+    align-items: center;
+}
+.packagerProfilePackagerShowImg{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 15px;
+}
+.packagerProfilePackagerShowTop{
+    display: flex;
+}
+.packagerProfilePackagerShowPackagerName{
+    font-weight: bold;
+    color: black;
+}
+.packagerProfilePackagerShowBottom{
+    margin-top: 20px;
+}
+.packagerProfilePackagerShowTitle{
+    font-size: 14px;
+    font-weight: bold;
+    color: black;   
+}
+.packagerProfilePackagerShowInfo{
+    display: flex;
+    align-items: center;
+    margin: 20px 0px;
+    color: black;
+}
+.packagershowIcon{
+    font-size: 16px !important;
+}
+.packagerProfilePackagerShowInfoTitle{
+    margin-left: 10px;
+    font-weight: bold;
+    color: black;
+}
+.packagerProfilecontainer{
+    display: flex;
+    align-items: center;
+}
+.packagerProfileEditPackager{
+    width: 600px;
+    margin-left: 120px;
+}
+.packagerProfilecontainer{
+    margin-left: 40px;
+}

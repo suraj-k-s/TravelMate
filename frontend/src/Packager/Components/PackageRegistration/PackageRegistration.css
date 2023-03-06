@@ -1,0 +1,103 @@
+.packageRegistration{
+    height: 85vh;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, black 100%), url("../../../Assets/pic57.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    padding: 20px;
+  }
+  .packageRegistrationLogoTitle {
+    padding: 20px 50px;
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(0, 69, 138);
+    cursor: pointer;
+    }
+  .packageRegistrationContainer{
+    width: 500px;
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.500),rgba(255, 255, 255, 0.500) ); 
+    border-radius: 10px;
+    height: 475px;
+    margin-left: 480px;
+    margin-top: 40px;
+    padding: 10px;
+  }
+  .packageRegistrationHeader{
+    padding: 10px;
+    margin: 10px 40px;
+  }
+  .packageRegistrationFormWrapper{
+    margin: 40px 45px;
+  
+  }
+  .packageRegistrationFormRow{
+    display: flex;
+    margin-bottom: 30px;
+  }
+  .packageRegistrationFormLabel{
+    width: 100px;
+    text-align: right;
+    font-size: 15px;
+    margin-top: 5px;
+  }
+  .packageRegistrationFormBox{
+    margin-left: 10px;
+  }
+  .packageRegistrationFormInput{
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    background-color: transparent;
+    width: 250px;
+    height: 30px;
+    color: black;
+  }
+  .packageRegistrationFormRowBtnSubmit{
+    margin-left: 110px;
+    margin-top: -20px;
+  }
+  .packageRegistrationFormSubmit{
+    margin-top: 10px;
+    width: 180px;
+    border: none;
+    font-size: 15px;
+    background-color: rgb(0, 69, 138);
+    color: white;
+    padding: 10px;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  .packageRegistrationFormSubmit:hover{
+    width: 180px;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.61);
+    color: rgb(0, 69, 138);
+    padding: 10px;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  .packageRegistrationNewPackagerWrapper{
+    
+    width: 300px;
+    margin-left: 80px;
+  }
+  .packageRegistrationNewPackagerTitle{
+    font-size: 15px;
+    font-weight: bold;
+  }
+  input::placeholder{
+      color: rgb(36, 35, 35);
+      font-style: italic;
+  }
+  .packageRegistrationFormUploadLogo{
+    margin-left: 10px;
+    background:none;
+    border-radius: 0px;
+    color: black;
+  }
+
+  input[type=file]::file-selector-button {
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(255, 2, 2);
+
+  }
+

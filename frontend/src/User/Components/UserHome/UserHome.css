@@ -1,0 +1,90 @@
+.userhome{
+    background: linear-gradient(to bottom, rgba(0,0,0,0) 0%,black 100%),url("../../../Assets/pic0.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    padding-top: 60px;
+}
+.userimg{
+    margin-top: -60px;
+    position: relative;
+    text-align: center;
+}
+
+.userHomeBox1Title{
+    font-size: 25px;
+    font-weight: 600;
+    color: White;
+    margin-left: 75px;
+    margin-bottom: 25px;
+}
+.userHomeBox1{
+    margin-top: 80px;
+    border-radius: 10px;
+    width: 1455px;
+    margin-top: 60px; 
+    margin-left: 40px;
+}
+.userHomeBox1ImageConatiner{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.userHomeBox1ImageItem{
+    height: 250px;
+    width: 200px;
+    border-radius: 15px;
+    cursor: pointer; 
+}
+.userHomeBox1Image{
+    transition: transform .2s;
+}
+.userHomeBox1Image:hover{
+    transform: scale(1.1);
+}
+.userHomeBox1ImageItemTitle{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: white;
+}
+.topLeftcaption {
+    margin-left: 5px;
+    font-weight: 600;
+    font-size: 14px;
+    font-style: italic;
+    font-family: "Playball", cursive;
+    color: white;
+  }
+.userHomeSearchContainer{
+    position: absolute;
+    right: 520px;
+    top: 300px;
+  }
+.userHomeSearchBox{
+    background-color: rgba(255, 255, 255, 0.699);
+    color: black;
+    font-weight: bold;
+    border-radius: 7.5px;
+    width: 500px;
+    height: 55px;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    text-align: center;
+}
+.userHomeSearchIconContainer{
+    position: absolute;
+    right: 530px;
+    top: 311px;
+}
+.userHomeSearchIcon{
+    color: grey !important;
+    font-size: 35px !important;
+    cursor: pointer;
+}
+.userHomeSearchIcon:hover{
+    color: grey !important;
+    font-size: 35px !important;
+    cursor: pointer;
+    transform: scale(1.1);
+}

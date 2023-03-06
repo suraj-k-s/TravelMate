@@ -1,0 +1,242 @@
+.busedit{
+    background: linear-gradient(to bottom, rgba(0,0,0,0) 0%,black 100%),url("../../../../Assets/pic23.jpg");
+    background-size: 100% 750px;
+    background-repeat: no-repeat;
+    height: 84vh;
+   padding: 20px;
+}
+.busEditTopTitleWrapper{
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+.busEditTopTitleDetails{
+    margin-left: 50px;
+}
+.busEditTopTitleEdit{
+    margin-left: 400px;
+}
+.busEditTopTitleItem{
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+}
+.busEditcontainer{
+    display: flex;
+    margin-top: 20px;
+}
+.busEditBusShow{
+    width: 350px;
+    height: 300px;
+    padding: 20px;
+    margin-left: 50px;
+    -webkit-box-shadow: -1px 1px 7px 4px rgba(0,0,0,0.45); 
+box-shadow: -1px 1px 7px 4px rgba(0,0,0,0.45);
+border-radius: 10px;
+background-color: rgba(255, 255, 255, 0.562);
+color: black;
+}
+.busEditBusShowTop{
+    display: flex;
+    align-items: center;
+}
+
+.busEditBusShowInfoWrapper{
+    margin-left: 200px;
+    width: 80px;
+    height: 80px;
+}
+.busEditBusShowTop{
+    display: flex;
+}
+.busEditBusShowBusName{
+    font-size: 23px;
+    font-weight: bold;
+    color: black;
+}
+.busEditBusShowBottom{
+    margin-top: 20px;
+}
+.busEditBusShowTitle{
+    font-size: 18px;
+    font-weight: bold;
+    color: black;   
+}
+.busEditBusShowInfo{
+    display: flex;
+    align-items: center;
+    margin: 20px 0px;
+    color: black;
+}
+.busshowIcon{
+    font-size: 16px !important;
+}
+.busEditBusShowInfoTitle{
+    margin-left: 10px;
+    font-weight: bold;
+    color: black;
+}
+.busEditcontainer{
+    display: flex;
+    align-items: center;
+}
+.busEditEditBus{
+    width: 600px;
+    margin-left: 120px;
+}
+.busEditBusShowImg{
+    width: 200px;
+    height: 150px;
+    border-radius: 10px;
+    object-fit: cover;
+    margin-left: -10px;
+    margin-top: -350px;
+    cursor: pointer;
+}
+
+
+
+.editbusfullconatiner{
+    margin-left: 210px;
+    
+}
+
+.editBus{
+    padding: 20px;
+    
+}
+.editBusUpdateLeft
+{
+    margin-top: -10px;
+}
+.editBusTitleContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+.editBusContainer{
+    display: flex;
+}
+.editBusUpdateForm{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.editBusUpdate{
+    width: 600px;
+    height: 300px;
+    margin-left: -55px;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    -webkit-box-shadow: -1px 1px 7px 4px rgba(0,0,0,0.45); 
+box-shadow: -1px 1px 7px 4px rgba(0,0,0,0.45);
+border-radius: 10px;
+background-color: rgba(255, 255, 255, 0.425);
+}
+.busrUpdateItem{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    color: white;
+}
+.busrUpdateItem>label{
+    margin-bottom: 5px;
+    font-size: 14px;
+    font-weight: 600;
+}
+.editBusUpdateInput{
+    border: none;
+    width: 255px;
+    height: 33px;
+    border-bottom: 1px solid gray;
+    background-color: rgba(255, 255, 255, 0.562);
+    border-radius: 5px;
+    padding-left: 10px;
+    margin-left: 11px;
+}
+
+.editBusUpdateDescriptionInput{
+    border: none;
+    width: 250px;
+    height: 60px;
+    border-bottom: 1px solid gray;
+    background-color: rgba(255, 255, 255, 0.562);
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+
+}
+
+.editBusUpdateRight{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+/* .editBusUpdateUpload{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+} */
+.editBusUpdateImg{
+    width: 150px;
+    height: 175px;
+    border-radius: 10px;
+    object-fit: cover;
+    cursor: pointer;
+}
+.editBusUpdateIcon{
+    cursor: pointer;   
+}
+.editBusUpdateButton{
+    border-radius: 5px;
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+    background-color: rgba(0, 0, 139, 0.732);
+    color: white;
+    height: 35px;
+    width: 90px;
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 10px;
+    margin-left: 300px;
+}
+.editBusUpdateButton:hover{
+    border-radius: 5px;
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.737);
+    color: darkblue;
+    height: 35px;
+    width: 90px;
+    font-size: 16px;
+    font-weight: 500;
+  
+}
+.editBusUpdateUploadWrapper{
+    display: flex;
+    align-items: center;
+}
+
+.editBusModelBoxSelectElement{
+    width: 255px;
+    height: 33px;
+    border-radius: 5px;
+    border: none; 
+    margin-left: 11px;
+    background-color: rgba(255, 255, 255, 0.562);;
+}
+.editBusFeaturesBoxSelectElement{
+    width: 255px;
+    height: 33px;
+    border-radius: 5px;
+    border: none; 
+    margin-left: 11px;
+    background-color: rgba(255, 255, 255, 0.562);;
+}
